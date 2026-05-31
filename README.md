@@ -1,6 +1,6 @@
 # GitHub Pages site
 
-Web estática pública para documentar el proyecto AVANCEM POR OLESA ante Meta.
+Web estática pública para documentar el proyecto AVANCEM PER OLESA ante Meta.
 
 ## Publicación
 
