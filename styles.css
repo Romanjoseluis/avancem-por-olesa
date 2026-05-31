@@ -42,10 +42,19 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--green-dark);
   font-size: 1rem;
   font-weight: 800;
   text-decoration: none;
+}
+
+.brand img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
 
 nav {
@@ -79,6 +88,14 @@ nav a[aria-current="page"] {
 
 .hero-inner {
   max-width: 780px;
+}
+
+.hero-logo {
+  display: block;
+  width: min(260px, 60vw);
+  margin-bottom: 22px;
+  border: 3px solid rgba(255, 255, 255, 0.82);
+  background: #ffffff;
 }
 
 .eyebrow {
